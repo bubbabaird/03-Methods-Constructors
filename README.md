@@ -1,24 +1,36 @@
-To start this assignment, [fork this repository](https://github.com/TIY-Charlotte-Java/MethodsAndConstructors.git)
+#GitAndJavaBasics
 
-## Description
+This assignment is designed to flex our brand new class-writing skills. Before we get to that, though, take a moment to enjoy this animated gif of a man trying to feed some pigeons:
 
-Let's write some code! But first, enjoy this gif of a bird stealing chips.
+![pigeonattack]
 
-![screenshot](https://media.giphy.com/media/6U4v1NPgaonDi/giphy.gif)
+Ok, back to the assignment.
 
-Okay, back to work.
+Here are your tasks:
+1. Fork [this repository](https://github.com/TIY-Charlotte-Java/GitAndJavaBasics).
+2. Clone your repository to your computer.
+3. Use IntelliJ to create 5 different classes. Each class should have at least 5 different variables. Get creative!
 
-For each of the classes you made yesterday, write getters and setters.
+Example:
 
-## Requirements
+```java
+// Stores a single tweet.
 
-* In each class, write setters and getters for all of its fields.
-* In each class, make at least one setter method contain an `if` statement that makes it enforce some kind of constraint.
+public class Tweet {
+    String text;
+    String username;
+    int timestamp;
+    boolean isPrivate;
+}
+```
 
-**HARD MODE**
-* Omit the out/ directory from source control.
-* For each class, write a constructor that sets all of its fields.
+**HARDMODE**
 
-**RIDICULOUS MODE**
-* In each class, write a constructor that sets all of its fields.
-* Come up with at least one readonly static field in one of the classes that you specified
+Create the repository using your terminal first, then hook it up to your GitHub repository. I won't be able to tell that you did this, so just let me know what you did in the submission notes. Hint: It involves `git remote`
+
+
+**ULTRAMODE**
+
+Make a few methods inside each class that you created. In the main class, use instances of those objects to invoke those methods.
+
+[pigeonattack]: http://www.gifbin.com/bin/1601003555.gif
